@@ -30,9 +30,10 @@ Limitations
 Outcomes are modeled IHME estimates, not direct counts; treatment is binary (doesn't capture tax size); missing covariates reduce the sample from 3,840 to 2,226 obs; results generalize mainly to small/mid-income countries, not large high-income economies.
 
 Repository structure  
-├── data/           # raw panel data (and scripts to build the merged)  
-├── src/            # Stata code for estimation  
-├── figures/        # event-study, forest plot, adoption timeline, etc.  
+├── raw datasets/   # raw panel data
+├── dataset stata/  # merged dataset
+├── do-file/        # Stata code for estimation  
+├── figures         # event-study, forest plot, adoption timeline, etc. outside folder
 ├── slides/         # presentation slides (PDF)  
 └── README.md  
 
